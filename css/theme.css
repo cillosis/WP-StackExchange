@@ -1,0 +1,21 @@
+/**
+* StackExchange Plugin Theme
+*/
+
+/* DIV Wrapper */
+.stackexchange-box {
+    line-height: 18px;
+}
+
+.stackexchange-author {
+    font-size: 0.9em;
+}
+
+.stackexchange-tag {
+    font-size: 0.8em;
+    background-color: #EEE;
+    color: #333;
+    padding: 2px;
+    margin: 3px;
+    border-radius: 5px;
+}
