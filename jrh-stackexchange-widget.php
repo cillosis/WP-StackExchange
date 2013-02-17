@@ -140,7 +140,7 @@ class jrh_stackexchange_widget extends WP_Widget
                             $this->_apiPageSize = empty($instance['question_count']) ? 3 : intval($instance['question_count']);
 
                             // Create list of keywords to pass to API
-                            $keywords = implode(",", $keywords);
+                            $keywords = urlencode(implode(",", $keywords));
                         
                             // Make request to StackExchange API
                             $apiCall = $this->_api . "/search/advanced/?order=desc&sort=activity";
@@ -176,6 +176,8 @@ class jrh_stackexchange_widget extends WP_Widget
             }
         }
     }
+
+    
  
 }
 ?>
