@@ -19,6 +19,8 @@ This plugin allows you to insert questions from a StackExchange site into your p
 
 3) Configure the widget with a title to display as well as the number of questions you would like to show.
 
+4) In your posts, add a new custom field named "stackexchange_search" and for the value set a keyword you would like to search for. For example, if your post is about Javascript, you can add the keyword "javascript". You can create multiple fields with the same name and it will search for all of them at once.
+
 ### Customization
 
 The list of questions appearance can be customized by editing the **/css/theme.css** file in the plugins directory. 
